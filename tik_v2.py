@@ -18,8 +18,5 @@ while True:
     fullpath = (musichome + randomsong)
     dt = datetime.now()
     ts = datetime.timestamp(dt)
-    print('blink!')
-    print('MOTION DETECTED, NOW PLAYING: ' +fullpath,ts)
     os.system("ffplay -nodisp -autoexit "+fullpath+" >/dev/null 2>&1")
-    print('turn off lights')
     time.sleep(10)
