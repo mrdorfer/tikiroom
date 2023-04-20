@@ -1,6 +1,6 @@
 # importing vlc, os, and random modules
 ## this relies on the system having ffmpeg to play
-## music from cli
+## music from cli.  Project between https://github.com/calubuddy and myself
 ##
 from gpiozero import MotionSensor
 from datetime import datetime 
