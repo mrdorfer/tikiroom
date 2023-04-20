@@ -1,6 +1,4 @@
-# importing vlc, os, and random modules
-## this relies on the system having ffmpeg to play
-## music from cli
+## Moved from VLC to ffmpeg to lower the overhead so it can run on a raspberry pi zero
 ##
 from gpiozero import MotionSensor
 from datetime import datetime 
