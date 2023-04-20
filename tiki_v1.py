@@ -10,7 +10,7 @@ import random
 import path
 
 pir = MotionSensor(4)
-musichome="/home/bp/music/"
+musichome="/home/music/"
 
 while True:
     pir.wait_for_motion()
